@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+ int a;
+ cout<<"ildaxil edin";
+ cin>>a;
+ if((a%4==0 and a%10!=0)or a%400==0){
+     cout<<"bu il artiq ildir";
+ }
+ else{
+     cout<<"bu il artiq il deyil";
+     
+ }
+    return 0;
+}
