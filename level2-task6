@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int ay;
+    cout << "Ayın nömrəsini daxil edin (1-12): ";
+    cin >> ay;
+
+    switch(ay) {
+        case 12: case 1: case 2:
+            cout << "Qış fəslidir.";
+            break;
+        case 3: case 4: case 5:
+            cout << "Yaz fəslidir.";
+            break;
+        case 6: case 7: case 8:
+            cout << "Yay fəslidir.";
+            break;
+        case 9: case 10: case 11:
+            cout << "Payız fəslidir.";
+            break;
+        default:
+            cout << "Yanlış ay nömrəsi daxil etdiniz.";
+    }
+
+    return 0;
+}
