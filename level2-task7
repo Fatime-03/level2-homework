@@ -1,0 +1,37 @@
+#include <iostream>
+using namespace std;
+int main() {
+    double a, b;
+    char c;
+
+    cout << "Birinci ədədi daxil edin: ";
+    cin >> a;
+
+    cout << "Əməliyyatı seçin (+, -, *, /): ";
+    cin >> c;
+
+    cout << "İkinci ədədi daxil edin: ";
+    cin >> b;
+
+    switch(c) {
+        case '+':
+            cout << "Cavab: " << a + b;
+            break;
+        case '-':
+            cout << "Cavab: " << a - b;
+            break;
+        case '*':
+            cout << "Cavab: " << a * b;
+            break;
+        case '/':
+            if (b != 0)
+                cout << "Cavab: " << a / b;
+            else
+                cout << "Sıfıra bölmək olmaz!";
+            break;
+        default:
+            cout << "Yanlış əməliyyat seçildi!";
+    }
+
+    return 0;
+}
