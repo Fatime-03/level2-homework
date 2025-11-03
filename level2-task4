@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int a;
+    cout<<" eded daxil edin";
+    cin>>a;
+    if(a%2==0){
+        cout<<"cutdur";
+    }
+    else if(a%2!=0){
+        cout<<"tekdir";
+    }
+   
+    return 0;
+}
